@@ -15,5 +15,5 @@ lspconfig.elixirls.setup{
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = {"elixir"},
-  cmd = {"/home/dado/.local/share/nvim/mason/bin/elixir-ls"}
+  cmd = {"/Users/eborsa/.local/share/nvim/mason/bin/elixir-ls"}
 }
