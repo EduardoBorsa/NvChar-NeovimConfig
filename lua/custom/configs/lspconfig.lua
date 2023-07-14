@@ -15,5 +15,16 @@ lspconfig.elixirls.setup{
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = {"elixir"},
-  cmd = {"/Users/eborsa/.local/share/nvim/mason/bin/elixir-ls"}
+  cmd = {"/home/dado/.local/share/nvim/mason/bin/elixir-ls"}
+}
+
+lspconfig.dockerls.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"dockerfile"}
+}
+
+lspconfig.docker_compose_language_service.setup{
+  on_attach = on_attach,
+  capabilities = capabilities
 }

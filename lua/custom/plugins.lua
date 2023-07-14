@@ -71,7 +71,7 @@ local plugins = {
     lazy = false
   },
   {
-    "alexghergh/nvim-tmux-navigation",
+    "christoomey/vim-tmux-navigator",
     lazy = false
   },
   {
