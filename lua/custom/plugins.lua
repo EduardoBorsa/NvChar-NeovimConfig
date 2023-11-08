@@ -38,7 +38,7 @@ local plugins = {
   },
   {
     "jose-elias-alvarez/null-ls.nvim",
-    ft = {"python", "elixir"},
+    ft = {"python", "elixir", "markdown", "html", "heex"},
     opts = function()
       return require "custom.configs.null-ls"
     end,
@@ -79,7 +79,15 @@ local plugins = {
     lazy = false
   },
   {
+    'tpope/vim-surround',
+    lazy = false
+  },
+  {
     'tpope/vim-fugitive',
+    lazy = false
+  },
+  {
+    dir = '/home/dado/projects/neovim/stackmap.nvim',
     lazy = false
   }
 }

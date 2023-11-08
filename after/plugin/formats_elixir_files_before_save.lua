@@ -1,0 +1,13 @@
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--   group = vim.api.nvim_create_augroup("FormatBeforeSaveElixirFiles", {clear = true}),
+--   pattern = {"*.ex", "*.exs"},
+--   callback = function()
+--     local file_name = vim.api.nvim_buf_get_name(0)
+--
+--     vim.fn.jobstart({"mix", "format", file_name}, {
+--       stdout_buffered = true
+--     })
+--
+--     vim.cmd(":e!")
+--   end
+-- })

@@ -20,3 +20,5 @@ augroup vimrc_syntax_elixir
   \     },
   \ })
 augroup END
+
+let g:user_emmet_leader_key='<C-E>'
